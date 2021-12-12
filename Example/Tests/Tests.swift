@@ -1,8 +1,8 @@
 // https://github.com/Quick/Quick
 
 import Quick
+import hello_cocoapod
 import Nimble
-import hello-cocoapod
 
 class TableOfContentsSpec: QuickSpec {
     override func spec() {

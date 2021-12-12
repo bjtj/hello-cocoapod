@@ -1,0 +1,35 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - hello-cocoapod (0.1.0)
+  - Nimble (9.2.1)
+  - Quick (2.2.1)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - hello-cocoapod (from `../`)
+  - Nimble
+  - Quick (~> 2.2.0)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  hello-cocoapod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  hello-cocoapod: 80e9869186ce2d559dc6a64fc1a4de9ce56382ff
+  Nimble: e7e615c0335ee4bf5b0d786685451e62746117d5
+  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+
+PODFILE CHECKSUM: 9315c54f3881634da93d701452607bd0d5603ac0
+
+COCOAPODS: 1.11.2
