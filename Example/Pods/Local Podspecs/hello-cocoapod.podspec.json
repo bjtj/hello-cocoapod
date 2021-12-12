@@ -1,0 +1,22 @@
+{
+  "name": "hello-cocoapod",
+  "version": "0.1.0",
+  "summary": "A short description of hello-cocoapod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/bjtj/hello-cocoapod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "bjtj": "bjtj10@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/bjtj/hello-cocoapod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "hello-cocoapod/Classes/**/*"
+}
